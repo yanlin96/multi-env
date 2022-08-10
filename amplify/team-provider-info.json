@@ -40,7 +40,9 @@
         "multienv": {
           "apiUrl": "http://localhost:3001",
           "deploymentBucketName": "amplify-multienv-prod-142400-deployment",
-          "s3Key": "amplify-builds/multienv-3478777a774c41626a6e-build.zip"
+          "s3Key": "amplify-builds/multienv-3478777a774c41626a6e-build.zip",
+          "database": "http://database:3000",
+          "cache": "http://cache:3000"
         }
       }
     }
