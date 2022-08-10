@@ -14,9 +14,11 @@
     "categories": {
       "function": {
         "multienv": {
-          "apiUrl": "http://localhost-dev:3000",
           "deploymentBucketName": "amplify-multienv-dev-141854-deployment",
-          "s3Key": "amplify-builds/multienv-3478777a774c41626a6e-build.zip"
+          "s3Key": "amplify-builds/multienv-3478777a774c41626a6e-build.zip",
+          "apiUrl": "http://localhost-dev:3000",
+          "database": "http://database-dev:3000",
+          "cache": "http://cache-dev:3000"
         }
       }
     }
