@@ -18,6 +18,12 @@
     },
     "apiUrl": {
       "Type": "String"
+    },
+    "database": {
+      "Type": "String"
+    },
+    "cache": {
+      "Type": "String"
     }
   },
   "Conditions": {
@@ -75,6 +81,12 @@
             },
             "API_URL": {
               "Ref": "apiUrl"
+            },
+            "DATABASE": {
+              "Ref": "database"
+            },
+            "CACHE": {
+              "Ref": "cache"
             }
           }
         },

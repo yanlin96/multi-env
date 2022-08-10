@@ -4,6 +4,14 @@
     {
       "cloudFormationParameterName": "apiUrl",
       "environmentVariableName": "API_URL"
+    },
+    {
+      "cloudFormationParameterName": "database",
+      "environmentVariableName": "DATABASE"
+    },
+    {
+      "cloudFormationParameterName": "cache",
+      "environmentVariableName": "CACHE"
     }
   ]
 }
