@@ -1,0 +1,9 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "apiUrl",
+      "environmentVariableName": "API_URL"
+    }
+  ]
+}

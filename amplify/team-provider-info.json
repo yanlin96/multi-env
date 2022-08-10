@@ -23,6 +23,13 @@
       "StackName": "amplify-multienv-prod-142400",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:961946950702:stack/amplify-multienv-prod-142400/42e4f1d0-1864-11ed-bf65-0a6aea002d3c",
       "AmplifyAppId": "d3agb10wwe5mgq"
+    },
+    "categories": {
+      "function": {
+        "multienv": {
+          "apiUrl": "http://localhost:3001"
+        }
+      }
     }
   }
 }
